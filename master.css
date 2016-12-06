@@ -50,31 +50,30 @@ nav {
   padding-left: 0px; }
 
 .right-third {
-  display: inline-flex; }
+  display: block;
+  width: 50%; }
 
-/*
-.sign-bar {
-    position: absolute;
-    top: 43px;
-    right:170px;
-    display: flex;
-    font-size: .7em;
-}
+.sign-bar ul {
+  display: block;
+  text-align: right;
+  font-size: .7em; }
 
 .sign-list {
-    padding: 0;
-}
-*/
+  padding: 0; }
+
+.cart-n-search {
+  display: inline-flex; }
+
 .cart {
   border: 1px solid lightgray;
   border-radius: 4px;
-  display: inline-flex;
-  margin-top: auto;
-  margin-bottom: auto;
+  display: flex;
   margin-right: 5px;
   margin-left: 132px;
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: .9em;
-  padding: 5px 15px; }
+  width: 50%; }
 
 input[type="text"] {
   width: 125px;
@@ -86,20 +85,15 @@ input[type="text"] {
   /* background-image: url(file:///Users/Joshua/Desktop/TIY/Weekend-project-1/sprite@2x.png);
   background-position: -25px,-75px; */ }
 
-/*
 .cart-pic, .magnifier {
-    background-image: url(file:///Users/Joshua/Desktop/TIY/Weekend-project-1/sprite@2x.png);
-    background: no-repeat;
-}
-
+  background-image: url(file:///Users/Joshua/Desktop/TIY/Weekend-project-1/sprite@2x.png);
+  background: no-repeat; }
 
 .cart-pic {
-    width: 10px;
-    height: 10px;
-    background-position: -50px -50px;
-}
+  width: 10px;
+  height: 10px;
+  background-position: -50px -50px; }
 
-*/
 .magnifier {
   margin-left: 25px;
   background-position: -25px -10px;
@@ -110,11 +104,12 @@ input[type="text"] {
   font-size: .7em;
   text-align: center;
   color: white;
-  margin-left: 15px;
+  margin: auto 0;
   padding: 1px;
   border: 1px solid #c8c8c8;
   border-radius: 4px;
   width: 15px;
+  height: 15px;
   background-color: #c8c8c8; }
 
 .search {

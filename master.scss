@@ -1,8 +1,14 @@
+$font-stack: "ff-enzo-web", tahoma, sans-serif;
+$pg-margin: 0;
+$bgc-header: #fa6938;
+$header-txt: white;
+$bgc-body: #f4f4f4;
+$li-font: #909090;
 
 
 * {
-    font-family: "ff-enzo-web", tahoma, sans-serif;
-    margin: 0;
+    font-family: $font-stack;
+    margin: $pg-margin;
 }
 
 @import 'header';

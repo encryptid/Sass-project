@@ -28,22 +28,6 @@ li {
     color: white;
 }
 
-// li {
-//     display: inline-block;    
-//     padding: 14px;
-//     text-shadow: .25px .15px black;
-// }
-
-// #shipping {
-//     border: transparent;
-//     border-radius: 4px;
-//     margin-left: 150px;
-//     font-size: 12px;
-//     text-align: center;
-//     background-color: rgba(0, 0, 0, .1);
-//     padding: 5px;
-// }
-
 nav {
     display: flex;
     padding-left: 10%;
@@ -67,91 +51,88 @@ nav {
         text-align: center;
     }
 
-    #register, #sign-in {
-    color: $li-font;
-    padding-right: 10px;
-    padding-left: 0px;
-    }
+    
 
     .right-third {
         display: block;
         width: 50%;
-    }
 
-    .sign-bar ul {
-        display: block;
-        text-align: right;
-        font-size: .7em;
-    }
+        .sign-bar {
+            display: block;
+            text-align: right;
+            font-size: .7em;
 
-    .sign-list {
-        padding: 0;
-    }
-    .cart-n-search {
-        display: inline-flex;
-    }
-    .cart {
-        border: 1px solid lightgray;
-        border-radius: 4px;
-        display: flex;
-        margin-right: 5px;
-        margin-left: 132px;
-        margin-top: auto;
-        margin-bottom: auto;
-        font-size: .9em;
-        width: 50%;
+            .sign-list {
+                padding: 0;
+
+                li {
+                    color: $li-font;
+                    padding-right: 10px;
+                    padding-left: 0px;
+                    }
+                }
         }
 
-    input[type="text"] {
-        width: 125px;
-        height: 25px;
-        padding-right: 0px;
-        border: 1px solid rgb(216, 216, 216);
-        border-radius: 4px;
-        font-family: "ff-enzo-web", tahoma, sans-serif;
-        /* background-image: url(file:///Users/Joshua/Desktop/TIY/Weekend-project-1/sprite@2x.png);
-        background-position: -25px,-75px; */
-    }
+        .cart-n-search {
+            display: inline-flex;
+            
+            .cart {
+                border: 1px solid lightgray;
+                border-radius: 4px;
+                display: flex;
+                margin-right: 5px;
+                margin-left: 132px;
+                margin-top: auto;
+                margin-bottom: auto;
+                font-size: .9em;
+                width: 50%;
 
-    .cart-pic, .magnifier {
-        background-image: url(file:///Users/Joshua/Desktop/TIY/Weekend-project-1/sprite@2x.png);
-        background: no-repeat;
-    }
+                .cart-pic {
+                    width: 10px;
+                    height: 10px;
+                    background-position: -50px -50px;
+                    }
 
+                .counter {
+                    font-size: .7em;
+                    text-align: center;
+                    color: white;
+                    margin: auto 0;
+                    padding: 1px;
+                    border: 1px solid rgb(200, 200, 200);
+                    border-radius: 4px;
+                    width: 15px;
+                    height: 15px;
+                    background-color: rgb(200, 200, 200);
+                    }
+                }
 
-    .cart-pic {
-        width: 10px;
-        height: 10px;
-        background-position: -50px -50px;
-    }
+            .search {
+            display: inline-flex;
+            margin-top: auto;
+            margin-bottom: auto;
+            font-size: .8em;
+            margin-left: 7px;
+            border: 5px solid rgb(244, 244, 244);
+            border-radius: 4px;
 
-    .magnifier {
-        margin-left: 25px;
-        background-position: -25px -10px;
-        height: 30px;
-        width: 127px;
-    }
+                .magnifier {
+                    margin-left: 25px;
+                    background-position: -25px -10px;
+                    height: 30px;
+                    width: 127px;
+                }
 
-    .counter {
-        font-size: .7em;
-        text-align: center;
-        color: white;
-        margin: auto 0;
-        padding: 1px;
-        border: 1px solid rgb(200, 200, 200);
-        border-radius: 4px;
-        width: 15px;
-        height: 15px;
-        background-color: rgb(200, 200, 200);
-    }
+                input[type="text"] {
+                    width: 125px;
+                    height: 25px;
+                    padding-right: 0px;
+                    border: 1px solid rgb(216, 216, 216);
+                    border-radius: 4px;
+                    font-family: "ff-enzo-web", tahoma, sans-serif;
+                }
+            }
 
-    .search {
-        display: inline-flex;
-        margin-top: auto;
-        margin-bottom: auto;
-        font-size: .8em;
-        margin-left: 7px;
-        border: 5px solid rgb(244, 244, 244);
-        border-radius: 4px;
+        }
     }
 }

@@ -1,26 +1,26 @@
 .tie {
-    background-color: rgb(244, 244, 244);
+    background-color: $bgc-body;
     display: flex;
     flex-direction: column;
-}
 
-.tiepix {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    text-align: center;
-}
+    .tiepix {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
 
-#style {
-    width: 62%;
-}
+        #style {
+            width: 62%;
+        }
 
-#label {
-    text-align: center;
-}
+        #label {
+            text-align: center;
+        }
+    }
 
-#dress-better {
-    text-align: center;
-    font-size: 3.5em;
-    margin: 75px;
+    #dress-better {
+        text-align: center;
+        font-size: 3.5em;
+        margin: 75px;
+    }
 }
